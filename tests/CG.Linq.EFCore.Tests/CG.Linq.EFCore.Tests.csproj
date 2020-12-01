@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CG.Linq\CG.Linq.csproj" />
+    <ProjectReference Include="..\..\src\CG.Linq.EFCore\CG.Linq.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
