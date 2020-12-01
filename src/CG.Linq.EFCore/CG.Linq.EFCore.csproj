@@ -16,6 +16,7 @@ Platforms supported:
     <RepositoryUrl>https://github.com/CodeGator/CG.Linq.EFCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Entity Framework Core, CG.Linq.EFCore, CodeGator</PackageTags>
+    <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -40,6 +41,13 @@ Platforms supported:
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\packageDefaultIcon-50x50.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
