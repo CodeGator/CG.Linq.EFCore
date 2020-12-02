@@ -1,6 +1,7 @@
 ﻿using CG.Business.Models;
 using CG.Business.Repositories;
 using CG.Business.Repositories.Options;
+using CG.Linq.EFCore.Repositories.Options;
 using CG.Validations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -9,17 +10,17 @@ using System.Linq;
 namespace CG.Linq.EFCore.Repositories
 {
     /// <summary>
-    /// This class is an EFCORE implementation of the <see cref="ILinqRepository{TModel}"/>
+    /// This class is a base EFCORE implementation of the <see cref="ILinqRepository{TModel}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TContext">The data-context type associated with the repository.</typeparam>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
-    public class EFCoreRepository<TContext, TOptions, TModel> : 
+    public abstract class EFCoreRepository<TContext, TOptions, TModel> : 
         LinqRepositoryBase<TOptions, TModel>,
         ILinqRepository<TModel>
         where TModel : class, IModel
-        where TOptions : IOptions<LinqRepositoryOptions>
+        where TOptions : IOptions<EFCoreRepositoryOptions>
         where TContext : DbContext
     {
         // *******************************************************************

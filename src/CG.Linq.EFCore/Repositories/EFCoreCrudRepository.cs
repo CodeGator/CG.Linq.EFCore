@@ -1,10 +1,9 @@
 ﻿using CG.Business.Models;
 using CG.Business.Repositories;
-using CG.Business.Repositories.Options;
 using CG.Linq.EFCore.Properties;
+using CG.Linq.EFCore.Repositories.Options;
 using CG.Validations;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -16,18 +15,18 @@ using System.Threading.Tasks;
 namespace CG.Linq.EFCore.Repositories
 {
     /// <summary>
-    /// This class is an EFCORE implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
+    /// This class is a base EFCORE implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TContext">The data-context type associated with the repository.</typeparam>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The type of associated model.</typeparam>
     /// <typeparam name="TKey">The key type associated with the model.</typeparam>
-    public class EFCoreCrudRepository<TContext, TOptions, TModel, TKey> :
+    public abstract class EFCoreCrudRepository<TContext, TOptions, TModel, TKey> :
         CrudRepositoryBase<TOptions, TModel, TKey>,
         ICrudRepository<TModel, TKey>
         where TModel : class, IModel<TKey>
-        where TOptions : IOptions<LinqRepositoryOptions>
+        where TOptions : IOptions<EFCoreRepositoryOptions>
         where TContext : DbContext
         where TKey : new()
     {
