@@ -83,7 +83,7 @@
   
   <h1 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4" class="text-break">Class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is an EFCORE implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base EFCORE implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -154,7 +154,7 @@ interface.</p>
   <h6><strong>Assembly</strong>: CG.Linq.EFCore.dll</h6>
   <h5 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;LinqRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;EFCoreRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

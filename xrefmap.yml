@@ -212,3 +212,15 @@ references:
   fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).Dispose
   nameWithType: EFCoreRepository<TContext, TOptions, TModel>.Dispose
   nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).Dispose
+- uid: CG.Linq.EFCore.Repositories.Options
+  name: CG.Linq.EFCore.Repositories.Options
+  href: api/CG.Linq.EFCore.Repositories.Options.html
+  commentId: N:CG.Linq.EFCore.Repositories.Options
+  fullName: CG.Linq.EFCore.Repositories.Options
+  nameWithType: CG.Linq.EFCore.Repositories.Options
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
+  name: EFCoreRepositoryOptions
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html
+  commentId: T:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
+  nameWithType: EFCoreRepositoryOptions
