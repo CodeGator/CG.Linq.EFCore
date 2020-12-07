@@ -7,211 +7,211 @@ references:
   commentId: N:CG.Linq.EFCore.Repositories
   fullName: CG.Linq.EFCore.Repositories
   nameWithType: CG.Linq.EFCore.Repositories
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4
-  name: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html
-  commentId: T:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4
-  name.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor(`1,`0)
-  name: EFCoreCrudRepository(TOptions, TContext)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4__ctor__1__0_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor(`1,`0)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.EFCoreCrudRepository(TOptions, TContext)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepository(TOptions, TContext)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.EFCoreCrudRepository(TOptions, TContext)
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepository(TOptions, TContext)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor*
-  name: EFCoreCrudRepository
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4__ctor_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4
+  name: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html
+  commentId: T:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4
+  name.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.#ctor(`1,`0)
+  name: EFCoreCrudRepositoryBase(TOptions, TContext)
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4__ctor__1__0_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.#ctor(`1,`0)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.EFCoreCrudRepositoryBase(TOptions, TContext)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepositoryBase(TOptions, TContext)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.EFCoreCrudRepositoryBase(TOptions, TContext)
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepositoryBase(TOptions, TContext)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.#ctor*
+  name: EFCoreCrudRepositoryBase
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4__ctor_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.#ctor
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.EFCoreCrudRepository
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepository
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.EFCoreCrudRepository
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepository
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.EFCoreCrudRepositoryBase
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepositoryBase
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.EFCoreCrudRepositoryBase
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).EFCoreCrudRepositoryBase
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AddAsync(`2,System.Threading.CancellationToken)
   name: AddAsync(TModel, CancellationToken)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AddAsync__2_System_Threading_CancellationToken_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync(`2,System.Threading.CancellationToken)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AddAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AddAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AddAsync(TModel, CancellationToken)
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AddAsync(TModel, CancellationToken)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_AddAsync__2_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AddAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AddAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AddAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AddAsync(TModel, CancellationToken)
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AddAsync(TModel, CancellationToken)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AddAsync*
   name: AddAsync
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AddAsync_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_AddAsync_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AddAsync
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AddAsync
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AddAsync
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AddAsync
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AddAsync
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AddAsync
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AddAsync
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AddAsync
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AddAsync
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AsQueryable
   name: AsQueryable()
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AsQueryable
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AsQueryable()
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AsQueryable()
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AsQueryable()
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AsQueryable()
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_AsQueryable
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AsQueryable
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AsQueryable()
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AsQueryable()
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AsQueryable()
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AsQueryable()
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AsQueryable*
   name: AsQueryable
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AsQueryable_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_AsQueryable_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.AsQueryable
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AsQueryable
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AsQueryable
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.AsQueryable
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).AsQueryable
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AsQueryable
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AsQueryable
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.AsQueryable
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).AsQueryable
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DataContext
   name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DataContext
-  commentId: P:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DataContext
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DataContext
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DataContext
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_DataContext
+  commentId: P:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DataContext
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DataContext
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DataContext
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DataContext
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DataContext
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DataContext*
   name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DataContext_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_DataContext_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DataContext
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DataContext
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DataContext
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DataContext
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DataContext
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DataContext
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DataContext
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DataContext
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DeleteAsync(`2,System.Threading.CancellationToken)
   name: DeleteAsync(TModel, CancellationToken)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DeleteAsync__2_System_Threading_CancellationToken_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync(`2,System.Threading.CancellationToken)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DeleteAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DeleteAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DeleteAsync(TModel, CancellationToken)
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DeleteAsync(TModel, CancellationToken)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_DeleteAsync__2_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DeleteAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DeleteAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DeleteAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DeleteAsync(TModel, CancellationToken)
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DeleteAsync(TModel, CancellationToken)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DeleteAsync*
   name: DeleteAsync
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DeleteAsync_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_DeleteAsync_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.DeleteAsync
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DeleteAsync
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DeleteAsync
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.DeleteAsync
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).DeleteAsync
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose(System.Boolean)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DeleteAsync
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DeleteAsync
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.DeleteAsync
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).DeleteAsync
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.Dispose(System.Boolean)
   name: Dispose(Boolean)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_Dispose_System_Boolean_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose(System.Boolean)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.Dispose(System.Boolean)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).Dispose(System.Boolean)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.Dispose(Boolean)
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).Dispose(Boolean)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_Dispose_System_Boolean_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.Dispose(System.Boolean)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.Dispose(System.Boolean)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).Dispose(System.Boolean)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.Dispose(Boolean)
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).Dispose(Boolean)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.Dispose*
   name: Dispose
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_Dispose_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_Dispose_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.Dispose
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.Dispose
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).Dispose
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.Dispose
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).Dispose
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.Dispose
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).Dispose
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.Dispose
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).Dispose
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.UpdateAsync(`2,System.Threading.CancellationToken)
   name: UpdateAsync(TModel, CancellationToken)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_UpdateAsync__2_System_Threading_CancellationToken_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync(`2,System.Threading.CancellationToken)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.UpdateAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).UpdateAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.UpdateAsync(TModel, CancellationToken)
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).UpdateAsync(TModel, CancellationToken)
-- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_UpdateAsync__2_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.UpdateAsync(`2,System.Threading.CancellationToken)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.UpdateAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).UpdateAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.UpdateAsync(TModel, CancellationToken)
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).UpdateAsync(TModel, CancellationToken)
+- uid: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.UpdateAsync*
   name: UpdateAsync
-  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_UpdateAsync_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync
+  href: api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html#CG_Linq_EFCore_Repositories_EFCoreCrudRepositoryBase_4_UpdateAsync_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase`4.UpdateAsync
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.UpdateAsync
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).UpdateAsync
-  nameWithType: EFCoreCrudRepository<TContext, TOptions, TModel, TKey>.UpdateAsync
-  nameWithType.vb: EFCoreCrudRepository(Of TContext, TOptions, TModel, TKey).UpdateAsync
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3
-  name: EFCoreRepository<TContext, TOptions, TModel>
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html
-  commentId: T:CG.Linq.EFCore.Repositories.EFCoreRepository`3
-  name.vb: EFCoreRepository(Of TContext, TOptions, TModel)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel)
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel)
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.#ctor(`1,`0)
-  name: EFCoreRepository(TOptions, TContext)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3__ctor__1__0_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepository`3.#ctor(`1,`0)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.EFCoreRepository(TOptions, TContext)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).EFCoreRepository(TOptions, TContext)
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.EFCoreRepository(TOptions, TContext)
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).EFCoreRepository(TOptions, TContext)
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.#ctor*
-  name: EFCoreRepository
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3__ctor_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepository`3.#ctor
+  fullName: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.UpdateAsync
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).UpdateAsync
+  nameWithType: EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>.UpdateAsync
+  nameWithType.vb: EFCoreCrudRepositoryBase(Of TContext, TOptions, TModel, TKey).UpdateAsync
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3
+  name: EFCoreRepositoryBase<TContext, TOptions, TModel>
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html
+  commentId: T:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3
+  name.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel)
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel)
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor(`1,`0)
+  name: EFCoreRepositoryBase(TOptions, TContext)
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor__1__0_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor(`1,`0)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.EFCoreRepositoryBase(TOptions, TContext)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).EFCoreRepositoryBase(TOptions, TContext)
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.EFCoreRepositoryBase(TOptions, TContext)
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).EFCoreRepositoryBase(TOptions, TContext)
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor*
+  name: EFCoreRepositoryBase
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.EFCoreRepository
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).EFCoreRepository
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.EFCoreRepository
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).EFCoreRepository
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.AsQueryable
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.EFCoreRepositoryBase
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).EFCoreRepositoryBase
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.EFCoreRepositoryBase
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).EFCoreRepositoryBase
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable
   name: AsQueryable()
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_AsQueryable
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepository`3.AsQueryable
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.AsQueryable()
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).AsQueryable()
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.AsQueryable()
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).AsQueryable()
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.AsQueryable*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.AsQueryable()
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable()
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.AsQueryable()
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable()
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable*
   name: AsQueryable
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_AsQueryable_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepository`3.AsQueryable
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.AsQueryable
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).AsQueryable
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.AsQueryable
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).AsQueryable
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.DataContext
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.AsQueryable
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.AsQueryable
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
   name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_DataContext
-  commentId: P:CG.Linq.EFCore.Repositories.EFCoreRepository`3.DataContext
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).DataContext
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.DataContext
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).DataContext
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.DataContext*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext
+  commentId: P:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext*
   name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_DataContext_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepository`3.DataContext
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).DataContext
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.DataContext
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).DataContext
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.Dispose(System.Boolean)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose(System.Boolean)
   name: Dispose(Boolean)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_Dispose_System_Boolean_
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepository`3.Dispose(System.Boolean)
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.Dispose(System.Boolean)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).Dispose(System.Boolean)
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.Dispose(Boolean)
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).Dispose(Boolean)
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepository`3.Dispose*
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_System_Boolean_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose(System.Boolean)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.Dispose(System.Boolean)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).Dispose(System.Boolean)
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.Dispose(Boolean)
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).Dispose(Boolean)
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose*
   name: Dispose
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html#CG_Linq_EFCore_Repositories_EFCoreRepository_3_Dispose_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepository`3.Dispose
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose
   isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepository<TContext, TOptions, TModel>.Dispose
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepository(Of TContext, TOptions, TModel).Dispose
-  nameWithType: EFCoreRepository<TContext, TOptions, TModel>.Dispose
-  nameWithType.vb: EFCoreRepository(Of TContext, TOptions, TModel).Dispose
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.Dispose
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).Dispose
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.Dispose
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).Dispose
 - uid: CG.Linq.EFCore.Repositories.Options
   name: CG.Linq.EFCore.Repositories.Options
   href: api/CG.Linq.EFCore.Repositories.Options.html

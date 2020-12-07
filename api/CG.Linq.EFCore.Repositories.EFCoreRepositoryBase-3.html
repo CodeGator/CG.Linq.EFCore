@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt;
+    <title>Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt;
+    <meta name="title" content="Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4">
+            <article class="content wrap" id="_content" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3">
   
   
-  <h1 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4" class="text-break">Class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt;
+  <h1 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3" class="text-break">Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a base EFCORE implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base EFCORE implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -94,28 +94,16 @@ interface.</p>
     <div class="level2"><span class="xref">CG.Business.Repositories.RepositoryBase</span></div>
     <div class="level3"><span class="xref">CG.Business.Repositories.RepositoryBase</span>&lt;TOptions&gt;</div>
     <div class="level4"><span class="xref">CG.Business.Repositories.LinqRepositoryBase</span>&lt;TOptions, TModel&gt;</div>
-    <div class="level5"><span class="xref">CG.Business.Repositories.LinqRepositoryBase</span>&lt;TOptions, TModel, TKey&gt;</div>
-    <div class="level6"><span class="xref">CG.Business.Repositories.CrudRepositoryBase</span>&lt;TOptions, TModel, TKey&gt;</div>
-    <div class="level7"><span class="xref">EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt;</span></div>
+    <div class="level5"><span class="xref">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">CG.Business.Repositories.ICrudRepository</span>&lt;TModel, TKey&gt;</div>
     <div><span class="xref">CG.Business.Repositories.ILinqRepository</span>&lt;TModel&gt;</div>
     <div><span class="xref">CG.Business.Repositories.IRepository</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.AddAsync(TModel, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.UpdateAsync(TModel, System.Threading.CancellationToken)</span>
-    </div>
-    <div>
-      <span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.DeleteAsync(TModel, System.Threading.CancellationToken)</span>
-    </div>
     <div>
       <span class="xref">CG.Business.Repositories.LinqRepositoryBase&lt;TOptions, TModel&gt;.AsQueryable()</span>
     </div>
@@ -152,9 +140,9 @@ interface.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.Linq.EFCore.Repositories.html">CG.Linq.EFCore.Repositories</a></h6>
   <h6><strong>Assembly</strong>: CG.Linq.EFCore.dll</h6>
-  <h5 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_syntax">Syntax</h5>
+  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class EFCoreCrudRepository&lt;TContext, TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;EFCoreRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt; : LinqRepositoryBase&lt;TOptions, TModel&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;EFCoreRepositoryOptions&gt; where TModel : class, IModel</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,27 +165,22 @@ interface.</p>
       </tr>
       <tr>
         <td><span class="parametername">TModel</span></td>
-        <td><p>The type of associated model.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td><p>The key type associated with the model.</p>
+        <td><p>The model type associated with the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.#ctor(`1,`0)">EFCoreCrudRepository(TOptions, TContext)</h4>
-  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <see cref="!:EFCoreCrudRepository&lt;TContext, TOptions, TModel>"></see>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor(`1,`0)">EFCoreRepositoryBase(TOptions, TContext)</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</a>
 class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EFCoreCrudRepository(TOptions options, TContext dataContext)</code></pre>
+    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, TContext dataContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,8 +208,8 @@ class.</p>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DataContext_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DataContext" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DataContext">DataContext</h4>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext">DataContext</h4>
   <div class="markdown level1 summary"><p>This property contains the data-context associated with the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -251,55 +234,8 @@ class.</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AddAsync_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AddAsync__2_System_Threading_CancellationToken_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AddAsync(`2,System.Threading.CancellationToken)">AddAsync(TModel, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;TModel&gt; AddAsync(TModel model, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><span class="parametername">model</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TModel&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.AddAsync(TModel, System.Threading.CancellationToken)</span></div>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AsQueryable_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_AsQueryable" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.AsQueryable">AsQueryable()</h4>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable">AsQueryable()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -323,55 +259,8 @@ class.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">CG.Business.Repositories.LinqRepositoryBase&lt;TOptions, TModel&gt;.AsQueryable()</span></div>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DeleteAsync_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_DeleteAsync__2_System_Threading_CancellationToken_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.DeleteAsync(`2,System.Threading.CancellationToken)">DeleteAsync(TModel, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task DeleteAsync(TModel model, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><span class="parametername">model</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.DeleteAsync(TModel, System.Threading.CancellationToken)</span></div>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_Dispose_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_Dispose_System_Boolean_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_System_Boolean_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>This method is called to clean up managed resources.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -399,57 +288,7 @@ class.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span></div>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_UpdateAsync_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreCrudRepository_4_UpdateAsync__2_System_Threading_CancellationToken_" data-uid="CG.Linq.EFCore.Repositories.EFCoreCrudRepository`4.UpdateAsync(`2,System.Threading.CancellationToken)">UpdateAsync(TModel, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;TModel&gt; UpdateAsync(TModel model, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><span class="parametername">model</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TModel&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Business.Repositories.CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;.UpdateAsync(TModel, System.Threading.CancellationToken)</span></div>
   <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
-  </div>
   <div>
       <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
   </div>

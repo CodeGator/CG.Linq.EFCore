@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.yml",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepository-4.html",
-          "hash": "G99LVHxJ20MHiWQ1Uom6xQ=="
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html",
+          "hash": "BJ+1GczZb9nzC7o1VtFuIQ=="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.yml",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepository-3.html",
-          "hash": "HuEZBs78jt8FTz0zlijHeQ=="
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html",
+          "hash": "tvzF0V3ikAqwb4l7WRvOMg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.EFCore.Repositories.html",
-          "hash": "TEILyOCAA2HKqaBxZ5gEhg=="
+          "hash": "3pYCQebToQzYe6QYSXlC6w=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "CRNzWXuo14VylmmMWzGtIg=="
+          "hash": "wcZweDm0Jz7eRclntVX5pg=="
         }
       },
       "is_incremental": false,
