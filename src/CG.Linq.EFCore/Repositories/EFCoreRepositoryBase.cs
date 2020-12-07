@@ -16,7 +16,7 @@ namespace CG.Linq.EFCore.Repositories
     /// <typeparam name="TContext">The data-context type associated with the repository.</typeparam>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
-    public abstract class EFCoreRepository<TContext, TOptions, TModel> : 
+    public abstract class EFCoreRepositoryBase<TContext, TOptions, TModel> : 
         LinqRepositoryBase<TOptions, TModel>,
         ILinqRepository<TModel>
         where TModel : class, IModel
@@ -43,12 +43,12 @@ namespace CG.Linq.EFCore.Repositories
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="EFCoreRepository{TOptions, TModel}"/>
+        /// This constructor creates a new instance of the <see cref="EFCoreRepositoryBase{TContext, TOptions, TModel}"/>
         /// class.
         /// </summary>
         /// <param name="options">The options to use with the repository.</param>
         /// <param name="dataContext">The data-context to use with the repository.</param>
-        protected EFCoreRepository(
+        protected EFCoreRepositoryBase(
             TOptions options,
             TContext dataContext
             ) : base(options)

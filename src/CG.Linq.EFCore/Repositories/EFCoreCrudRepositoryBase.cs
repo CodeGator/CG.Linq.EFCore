@@ -22,7 +22,7 @@ namespace CG.Linq.EFCore.Repositories
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The type of associated model.</typeparam>
     /// <typeparam name="TKey">The key type associated with the model.</typeparam>
-    public abstract class EFCoreCrudRepository<TContext, TOptions, TModel, TKey> :
+    public abstract class EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey> :
         CrudRepositoryBase<TOptions, TModel, TKey>,
         ICrudRepository<TModel, TKey>
         where TModel : class, IModel<TKey>
@@ -50,12 +50,12 @@ namespace CG.Linq.EFCore.Repositories
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="EFCoreCrudRepository{TContext, TOptions, TModel}"/>
+        /// This constructor creates a new instance of the <see cref="EFCoreCrudRepositoryBase{TContext, TOptions, TModel, TKey}"/>
         /// class.
         /// </summary>
         /// <param name="options">The options to use with the repository.</param>
         /// <param name="dataContext">The data-context to use with the repository.</param>
-        protected EFCoreCrudRepository(
+        protected EFCoreCrudRepositoryBase(
             TOptions options,
             TContext dataContext
             ) : base(options)
@@ -116,7 +116,7 @@ namespace CG.Linq.EFCore.Repositories
                 throw new RepositoryException(
                     message: string.Format(
                         Resources.EfCoreCrudRepository_AddAsync,
-                        nameof(EFCoreCrudRepository<TContext, TOptions, TModel, TKey>),
+                        nameof(EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>),
                         typeof(TModel).Name,
                         JsonSerializer.Serialize(model)
                         ),
@@ -181,7 +181,7 @@ namespace CG.Linq.EFCore.Repositories
                 throw new RepositoryException(
                     message: string.Format(
                         Resources.EfCoreCrudRepository_UpdateAsync,
-                        nameof(EFCoreCrudRepository<TContext, TOptions, TModel, TKey>),
+                        nameof(EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>),
                         typeof(TModel).Name,
                         JsonSerializer.Serialize(model)
                         ),
@@ -237,7 +237,7 @@ namespace CG.Linq.EFCore.Repositories
                 throw new RepositoryException(
                     message: string.Format(
                         Resources.EfCoreCrudRepository_DeleteAsync,
-                        nameof(EFCoreCrudRepository<TContext, TOptions, TModel, TKey>),
+                        nameof(EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>),
                         typeof(TModel).Name,
                         JsonSerializer.Serialize(model)
                         ),
