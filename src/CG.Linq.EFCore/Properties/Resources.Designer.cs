@@ -88,11 +88,20 @@ namespace CG.Linq.EFCore.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to key: &apos;{0}, &apos;{1}&apos;&apos; not found!.
+        ///   Looks up a localized string similar to key: &apos;{0}, &apos;{1}&apos; not found!.
         /// </summary>
         internal static string EfCoreCrudRepository_KeyNotFound2 {
             get {
                 return ResourceManager.GetString("EfCoreCrudRepository_KeyNotFound2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to key: &apos;{0}, &apos;{1}&apos;, &apos;{2}&apos; not found!.
+        /// </summary>
+        internal static string EfCoreCrudRepository_KeyNotFound3 {
+            get {
+                return ResourceManager.GetString("EfCoreCrudRepository_KeyNotFound3", resourceCulture);
             }
         }
         
