@@ -88,6 +88,15 @@ namespace CG.Linq.EFCore.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to key: &apos;{0}, &apos;{1}&apos;&apos; not found!.
+        /// </summary>
+        internal static string EfCoreCrudRepository_KeyNotFound2 {
+            get {
+                return ResourceManager.GetString("EfCoreCrudRepository_KeyNotFound2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} failed to update a {1}! parameter: {2}. See inner exception(s) for more detail..
         /// </summary>
         internal static string EfCoreCrudRepository_UpdateAsync {

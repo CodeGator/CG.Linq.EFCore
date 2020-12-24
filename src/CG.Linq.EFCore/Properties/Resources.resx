@@ -126,6 +126,9 @@
   <data name="EfCoreCrudRepository_KeyNotFound" xml:space="preserve">
     <value>key: '{0}' not found!</value>
   </data>
+  <data name="EfCoreCrudRepository_KeyNotFound2" xml:space="preserve">
+    <value>key: '{0}, '{1}'' not found!</value>
+  </data>
   <data name="EfCoreCrudRepository_UpdateAsync" xml:space="preserve">
     <value>{0} failed to update a {1}! parameter: {2}. See inner exception(s) for more detail.</value>
   </data>
