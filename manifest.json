@@ -26,11 +26,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-5.html",
+          "hash": "HwO+548ZmRPVK/C9NcM8fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-6.html",
+          "hash": "uUrl7g6WvRS8XLJihp14Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html",
+          "hash": "aQvryn0oenqNyLj8C1z7Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html",
-          "hash": "pL8jYReNugV0nwTvkTd39A=="
+          "hash": "NTLKJ0PsiRO42HOuZvYMRA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.EFCore.Repositories.html",
-          "hash": "9pSxgNioHvUr7PLSXKuD7Q=="
+          "hash": "oPTZ15JoDeaSzeIVT01sBA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "wcZweDm0Jz7eRclntVX5pg=="
+          "hash": "mF/v0CfmehkFxBH7XDD/zg=="
         }
       },
       "is_incremental": false,
@@ -197,7 +233,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

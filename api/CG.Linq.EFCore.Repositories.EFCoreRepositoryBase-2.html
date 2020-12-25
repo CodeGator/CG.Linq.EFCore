@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
+    <title>Class EFCoreRepositoryBase&lt;TContext, TOptions&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
+    <meta name="title" content="Class EFCoreRepositoryBase&lt;TContext, TOptions&gt;
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3">
+            <article class="content wrap" id="_content" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2">
   
   
-  <h1 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3" class="text-break">Class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;
+  <h1 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2" class="text-break">Class EFCoreRepositoryBase&lt;TContext, TOptions&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a base EFCORE implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base EFCORE implementation of the <span class="xref">CG.Business.Repositories.IRepository</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -92,23 +92,16 @@ interface.</p>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">CG.DisposableBase</span></div>
     <div class="level2"><span class="xref">CG.Business.Repositories.RepositoryBase</span></div>
-    <div class="level3"><a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase</a>&lt;TContext, TOptions&gt;</div>
-    <div class="level4"><span class="xref">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</span></div>
+    <div class="level3"><span class="xref">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</span></div>
+      <div class="level4"><a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">CG.Business.Repositories.ILinqRepository</span>&lt;TModel&gt;</div>
     <div><span class="xref">CG.Business.Repositories.IRepository</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_DataContext">EFCoreRepositoryBase&lt;TContext, TOptions&gt;.DataContext</a>
-    </div>
-    <div>
-      <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Dispose_System_Boolean_">EFCoreRepositoryBase&lt;TContext, TOptions&gt;.Dispose(Boolean)</a>
-    </div>
     <div>
       <span class="xref">CG.DisposableBase.System.IDisposable.Dispose()</span>
     </div>
@@ -139,9 +132,9 @@ interface.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.Linq.EFCore.Repositories.html">CG.Linq.EFCore.Repositories</a></h6>
   <h6><strong>Assembly</strong>: CG.Linq.EFCore.dll</h6>
-  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_syntax">Syntax</h5>
+  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt; : EFCoreRepositoryBase&lt;TContext, TOptions&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;EFCoreRepositoryOptions&gt; where TModel : class, IModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class EFCoreRepositoryBase&lt;TContext, TOptions&gt; : RepositoryBase, IRepository, IDisposable where TContext : DbContext where TOptions : IOptions&lt;EFCoreRepositoryOptions&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,18 +155,13 @@ interface.</p>
         <td><p>The options type associated with the repository.</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="parametername">TModel</span></td>
-        <td><p>The model type associated with the repository.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.#ctor(`1,`0)">EFCoreRepositoryBase(TOptions, TContext)</h4>
-  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</a>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,`0)">EFCoreRepositoryBase(TOptions, TContext)</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</a>
 class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -207,8 +195,8 @@ class.</p>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext">DataContext</h4>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_DataContext_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.DataContext*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_DataContext" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.DataContext">DataContext</h4>
   <div class="markdown level1 summary"><p>This property contains the data-context associated with the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -233,31 +221,8 @@ class.</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_AsQueryable" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.AsQueryable">AsQueryable()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IQueryable&lt;TModel&gt; AsQueryable()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.IQueryable</span>&lt;TModel&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_System_Boolean_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Dispose_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Dispose*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Dispose_System_Boolean_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>This method is called to clean up managed resources.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -284,11 +249,8 @@ class.</p>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.Linq.EFCore.Repositories.EFCoreRepositoryBase&lt;TContext, TOptions&gt;.Dispose(System.Boolean)</span></div>
+  <div><span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span></div>
   <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
-  </div>
   <div>
       <span class="xref">CG.Business.Repositories.IRepository</span>
   </div>
