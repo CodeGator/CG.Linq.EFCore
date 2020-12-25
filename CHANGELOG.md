@@ -3,6 +3,8 @@
 
 ## 2021.1
 
+* I created a base class repository with no model refs
+
 * I bumped the major version for the new year.
 
 ## 2020.5
