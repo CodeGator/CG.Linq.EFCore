@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright © 2010 - 2020 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2010 - 2021 by CodeGator. All rights reserved.</Copyright>
     <Description>This package contains Entity Framework Core extensions used by other CodeGator packages. 
 
 Platforms supported:
-    .NET Standard 2.0 or above</Description>
+    .NET Core 3.1 or above</Description>
     <Company>CodeGator</Company>
     <Authors>Martin Cook</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,6 +22,7 @@ Platforms supported:
   <ItemGroup>
     <PackageReference Include="CG.Linq" Version="2021.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.10" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -49,5 +50,9 @@ Platforms supported:
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
 </Project>
