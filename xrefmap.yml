@@ -540,3 +540,98 @@ references:
   commentId: T:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
   fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
   nameWithType: EFCoreRepositoryOptions
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
+  name: ApplyMigrations
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_ApplyMigrations
+  commentId: P:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
+  nameWithType: EFCoreRepositoryOptions.ApplyMigrations
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations*
+  name: ApplyMigrations
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_ApplyMigrations_
+  commentId: Overload:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
+  nameWithType: EFCoreRepositoryOptions.ApplyMigrations
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
+  name: EnsureCreated
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_EnsureCreated
+  commentId: P:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
+  nameWithType: EFCoreRepositoryOptions.EnsureCreated
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated*
+  name: EnsureCreated
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_EnsureCreated_
+  commentId: Overload:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
+  nameWithType: EFCoreRepositoryOptions.EnsureCreated
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase
+  name: SeedDatabase
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_SeedDatabase
+  commentId: P:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase
+  nameWithType: EFCoreRepositoryOptions.SeedDatabase
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase*
+  name: SeedDatabase
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_SeedDatabase_
+  commentId: Overload:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.SeedDatabase
+  nameWithType: EFCoreRepositoryOptions.SeedDatabase
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  href: api/Microsoft.AspNetCore.Builder.html
+  commentId: N:Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup*
+  name: UseEFCoreStartup
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup_
+  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup
+  isSpec: "True"
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup
+  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.Action{``0})
+  name: UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, Action<TContext>)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_Action___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.Action{``0})
+  name.vb: UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, Action(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.Action<TContext>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.Action(Of TContext))
+  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, Action<TContext>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, Action(Of TContext))
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore*
+  name: AddEFCore
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEFCore_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore
+  nameWithType: ServiceCollectionExtensions.AddEFCore
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddEFCore<TOptions>(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEFCore__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddEFCore(Of TOptions)(IServiceCollection, IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEFCore(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddEFCore<TOptions>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddEFCore(Of TOptions)(IServiceCollection, IConfiguration)
