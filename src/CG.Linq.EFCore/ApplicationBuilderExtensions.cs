@@ -9,6 +9,22 @@ using System;
 namespace Microsoft.AspNetCore.Builder
 {
     /// <summary>
+    /// This delegate type represents a callback to seed a database.
+    /// </summary>
+    /// <typeparam name="TContext">The type of associated data-context.</typeparam>
+    /// <param name="dataContext">The data-context to use for the operation.</param>
+    /// <param name="wasDropped">Indicates whether the data-context was recently dropped.</param>
+    /// <param name="wasCreated">Indicates whether the data-context was recently created.</param>
+    /// <param name="wasMigrated">Indicates whether the data-context was recently migrated.</param>
+    public delegate void SeedAction<in TContext>(
+        TContext dataContext, 
+        bool wasDropped, 
+        bool wasCreated, 
+        bool wasMigrated
+        ) where TContext : DbContext;
+
+
+    /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
     /// type.
     /// </summary>
@@ -40,7 +56,7 @@ namespace Microsoft.AspNetCore.Builder
         public static IApplicationBuilder UseEFCoreStartup<TContext, TOptions>(
             this IApplicationBuilder applicationBuilder,
             IWebHostEnvironment hostEnvironment,
-            Action<TContext> seedDelegate
+            SeedAction<TContext> seedDelegate
             ) where TContext : DbContext
               where TOptions : EFCoreRepositoryOptions
         {
@@ -51,6 +67,10 @@ namespace Microsoft.AspNetCore.Builder
 
             // Get the registered options.
             var options = applicationBuilder.ApplicationServices.GetRequiredService<IOptions<TOptions>>();
+
+            var wasDropped = false;
+            var wasCreated = false;
+            var wasMigrated = false;
 
             // Should we manipulate the database?
             if (options.Value.ApplyMigrations ||
@@ -72,6 +92,9 @@ namespace Microsoft.AspNetCore.Builder
                         {
                             // Ensure the database exists.
                             dataContext.Database.EnsureDeleted();
+
+                            // Keep track of what we've done.
+                            wasDropped = true;
                         }
 
                         // Should we make sure the database exists?
@@ -79,6 +102,9 @@ namespace Microsoft.AspNetCore.Builder
                         {
                             // Ensure the database exists.
                             dataContext.Database.EnsureCreated();
+
+                            // Keep track of what we've done.
+                            wasCreated = true;
                         }
                     }
 
@@ -87,6 +113,9 @@ namespace Microsoft.AspNetCore.Builder
                     {
                         // Apply migrations.
                         dataContext.Database.Migrate();
+
+                        // Keep track of what we've done.
+                        wasMigrated = true;
                     }
 
                     // Should we make the database has seed data?
@@ -96,7 +125,12 @@ namespace Microsoft.AspNetCore.Builder
                         if (hostEnvironment.EnvironmentName == "Development")
                         {
                             // Perform the data seeding operation.
-                            seedDelegate(dataContext);
+                            seedDelegate(
+                                dataContext,
+                                wasDropped,
+                                wasCreated,
+                                wasMigrated
+                                );
                         }
                     }
                 }
