@@ -55,6 +55,7 @@ namespace Microsoft.AspNetCore.Builder
             // Should we manipulate the database?
             if (options.Value.ApplyMigrations ||
                 options.Value.EnsureCreated ||
+                options.Value.DropDatabase ||
                 options.Value.SeedDatabase)
             {
                 // Apply any pending migrations.
@@ -63,11 +64,22 @@ namespace Microsoft.AspNetCore.Builder
                     // Get a data-context instance.
                     var dataContext = scope.ServiceProvider.GetService<TContext>();
 
-                    // Should we make sure the database exists?
-                    if (options.Value.EnsureCreated)
+                    // Only perform data seeding on a developers machine.
+                    if (hostEnvironment.EnvironmentName == "Development")
                     {
-                        // Ensure the database exists.
-                        dataContext.Database.EnsureCreated();
+                        // Should we drop the database? 
+                        if (options.Value.DropDatabase)
+                        {
+                            // Ensure the database exists.
+                            dataContext.Database.EnsureDeleted();
+                        }
+
+                        // Should we make sure the database exists?
+                        if (options.Value.EnsureCreated)
+                        {
+                            // Ensure the database exists.
+                            dataContext.Database.EnsureCreated();
+                        }
                     }
 
                     // Should we make sure the migrations are up to date?
@@ -80,8 +92,12 @@ namespace Microsoft.AspNetCore.Builder
                     // Should we make the database has seed data?
                     if (options.Value.SeedDatabase)
                     {
-                        // Perform the data seeding operation.
-                        seedDelegate(dataContext);
+                        // Only perform data seeding on a developers machine.
+                        if (hostEnvironment.EnvironmentName == "Development")
+                        {
+                            // Perform the data seeding operation.
+                            seedDelegate(dataContext);
+                        }
                     }
                 }
             }
