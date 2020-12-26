@@ -553,6 +553,19 @@ references:
   isSpec: "True"
   fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.ApplyMigrations
   nameWithType: EFCoreRepositoryOptions.ApplyMigrations
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase
+  name: DropDatabase
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_DropDatabase
+  commentId: P:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase
+  nameWithType: EFCoreRepositoryOptions.DropDatabase
+- uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase*
+  name: DropDatabase
+  href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_DropDatabase_
+  commentId: Overload:CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.DropDatabase
+  nameWithType: EFCoreRepositoryOptions.DropDatabase
 - uid: CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.EnsureCreated
   name: EnsureCreated
   href: api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html#CG_Linq_EFCore_Repositories_Options_EFCoreRepositoryOptions_EnsureCreated
@@ -598,15 +611,24 @@ references:
   isSpec: "True"
   fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup
   nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.Action{``0})
-  name: UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, Action<TContext>)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_Action___0__
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.Action{``0})
-  name.vb: UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, Action(Of TContext))
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.Action<TContext>)
-  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.Action(Of TContext))
-  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, Action<TContext>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, Action(Of TContext))
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name: UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name.vb: UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
+  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
+- uid: Microsoft.AspNetCore.Builder.SeedAction`1
+  name: SeedAction<TContext>
+  href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
+  commentId: T:Microsoft.AspNetCore.Builder.SeedAction`1
+  name.vb: SeedAction(Of TContext)
+  fullName: Microsoft.AspNetCore.Builder.SeedAction<TContext>
+  fullName.vb: Microsoft.AspNetCore.Builder.SeedAction(Of TContext)
+  nameWithType: SeedAction<TContext>
+  nameWithType.vb: SeedAction(Of TContext)
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   href: api/Microsoft.Extensions.DependencyInjection.html
