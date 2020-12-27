@@ -494,23 +494,6 @@ references:
   fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable
   nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.AsQueryable
   nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).AsQueryable
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
-  name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext
-  commentId: P:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
-  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
-  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext*
-  name: DataContext
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_DataContext_
-  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.DataContext
-  isSpec: "True"
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
-  nameWithType: EFCoreRepositoryBase<TContext, TOptions, TModel>.DataContext
-  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions, TModel).DataContext
 - uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`3.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_3_Dispose_System_Boolean_
