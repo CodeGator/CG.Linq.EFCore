@@ -104,19 +104,6 @@ namespace CG.Linq.EFCore.Repositories
         where TContext : DbContext
     {
         // *******************************************************************
-        // Properties.
-        // *******************************************************************
-
-        #region Properties
-
-        /// <summary>
-        /// This property contains the data-context associated with the repository.
-        /// </summary>
-        protected TContext DataContext { get; set; }
-
-        #endregion
-
-        // *******************************************************************
         // Constructors.
         // *******************************************************************
 
@@ -147,7 +134,7 @@ namespace CG.Linq.EFCore.Repositories
         /// <inheritdoc />
         public virtual IQueryable<TModel> AsQueryable()
         {
-            // Defer to the CosmoDb container.
+            // Defer to the data-context.
             return DataContext.Set<TModel>().AsQueryable();
         }
 
