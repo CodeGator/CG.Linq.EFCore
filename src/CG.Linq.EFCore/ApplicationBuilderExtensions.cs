@@ -38,8 +38,9 @@ namespace Microsoft.AspNetCore.Builder
 
         /// <summary>
         /// This method performs any startup logic required by EFCore, such as 
-        /// creating the underlying database (if needed), applying migrations,
-        /// or adding seed data to a blank database. 
+        /// dropping the underlying database (if needed), or creating the underlying 
+        /// database (if needed), applying any pending migrations, or adding seed 
+        /// data to an otherwise blank database. 
         /// </summary>
         /// <typeparam name="TContext">The type of assciated data-context</typeparam>
         /// <typeparam name="TOptions">The type of associated options.</typeparam>
@@ -53,7 +54,7 @@ namespace Microsoft.AspNetCore.Builder
         /// parameter, for chaining calls together.</returns>
         /// <exception cref="ArgumentException">This exception is thrown whenever one
         /// or more arguments are invalid, or missing.</exception>
-        public static IApplicationBuilder UseEFCoreStartup<TContext, TOptions>(
+        public static IApplicationBuilder UseEFCore<TContext, TOptions>(
             this IApplicationBuilder applicationBuilder,
             IWebHostEnvironment hostEnvironment,
             SeedAction<TContext> seedDelegate
@@ -66,7 +67,9 @@ namespace Microsoft.AspNetCore.Builder
                 .ThrowIfNull(seedDelegate, nameof(seedDelegate));
 
             // Get the registered options.
-            var options = applicationBuilder.ApplicationServices.GetRequiredService<IOptions<TOptions>>();
+            var options = applicationBuilder.ApplicationServices.GetRequiredService<
+                IOptions<TOptions>
+                >();
 
             var wasDropped = false;
             var wasCreated = false;
@@ -118,7 +121,7 @@ namespace Microsoft.AspNetCore.Builder
                         wasMigrated = true;
                     }
 
-                    // Should we make the database has seed data?
+                    // Should we make sure the database has seed data?
                     if (options.Value.SeedDatabase)
                     {
                         // Only perform data seeding on a developers machine.

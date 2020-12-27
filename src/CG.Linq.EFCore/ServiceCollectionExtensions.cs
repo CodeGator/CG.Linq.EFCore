@@ -1,9 +1,6 @@
 ﻿using CG.Linq.EFCore.Repositories.Options;
 using CG.Validations;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
