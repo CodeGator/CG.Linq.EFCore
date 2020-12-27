@@ -124,16 +124,17 @@ type.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup*"></a>
-  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})">UseEFCoreStartup&lt;TContext, TOptions&gt;(IApplicationBuilder, IWebHostEnvironment, SeedAction&lt;TContext&gt;)</h4>
+  <a id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore*"></a>
+  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})">UseEFCore&lt;TContext, TOptions&gt;(IApplicationBuilder, IWebHostEnvironment, SeedAction&lt;TContext&gt;)</h4>
   <div class="markdown level1 summary"><p>This method performs any startup logic required by EFCore, such as
-creating the underlying database (if needed), applying migrations,
-or adding seed data to a blank database.</p>
+dropping the underlying database (if needed), or creating the underlying
+database (if needed), applying any pending migrations, or adding seed
+data to an otherwise blank database.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseEFCoreStartup&lt;TContext, TOptions&gt;(this IApplicationBuilder applicationBuilder, IWebHostEnvironment hostEnvironment, SeedAction&lt;TContext&gt; seedDelegate)
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseEFCore&lt;TContext, TOptions&gt;(this IApplicationBuilder applicationBuilder, IWebHostEnvironment hostEnvironment, SeedAction&lt;TContext&gt; seedDelegate)
     where TContext : DbContext where TOptions : EFCoreRepositoryOptions</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

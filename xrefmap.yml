@@ -604,22 +604,22 @@ references:
   commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
   fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup*
-  name: UseEFCoreStartup
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup_
-  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore*
+  name: UseEFCore
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore_
+  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup
-  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
-  name: UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCoreStartup__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
-  name.vb: UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
-  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
-  nameWithType: ApplicationBuilderExtensions.UseEFCoreStartup<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseEFCoreStartup(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
+  nameWithType: ApplicationBuilderExtensions.UseEFCore
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name: UseEFCore<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name.vb: UseEFCore(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
+  nameWithType: ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TContext>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TContext))
 - uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TContext>
   href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
