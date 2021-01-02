@@ -1,6 +1,7 @@
 ﻿using CG.Linq.EFCore.Repositories.Options;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
+using System;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -23,13 +24,15 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <param name="serviceCollection">The service collection to use for 
         /// the operation.</param>
         /// <param name="configuration">The configuration to use for the operation.</param>
+        /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/>
         /// parameter, for chaining calls together.</returns>
         /// <exception cref="ArgumentException">This exception is thrown whenever one
         /// or more arguments are invalid, or missing.</exception>
         public static IServiceCollection AddEFCore<TOptions>(
             this IServiceCollection serviceCollection,
-            IConfiguration configuration
+            IConfiguration configuration,
+            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
             ) where TOptions : EFCoreRepositoryOptions, new()
         {
             // Validate the parameters before attempting to use them.

@@ -67,9 +67,8 @@ namespace Microsoft.AspNetCore.Builder
                 .ThrowIfNull(seedDelegate, nameof(seedDelegate));
 
             // Get the registered options.
-            var options = applicationBuilder.ApplicationServices.GetRequiredService<
-                IOptions<TOptions>
-                >();
+            var options = applicationBuilder.ApplicationServices
+                    .GetRequiredService<IOptions<TOptions>>();
 
             var wasDropped = false;
             var wasCreated = false;
