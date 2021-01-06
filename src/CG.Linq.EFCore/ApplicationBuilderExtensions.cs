@@ -111,7 +111,7 @@ namespace Microsoft.AspNetCore.Builder
                     }
 
                     // Should we make sure the migrations are up to date?
-                    if (options.Value.ApplyMigrations)
+                    if (options.Value.ApplyMigrations || options.Value.EnsureCreated || options.Value.DropDatabase)
                     {
                         // Apply migrations.
                         dataContext.Database.Migrate();
