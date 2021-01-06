@@ -100,7 +100,7 @@ namespace Microsoft.AspNetCore.Builder
                         }
 
                         // Should we make sure the database exists?
-                        if (options.Value.EnsureCreated)
+                        if (options.Value.EnsureCreated || options.Value.DropDatabase)
                         {
                             // Ensure the database exists.
                             dataContext.Database.EnsureCreated();
