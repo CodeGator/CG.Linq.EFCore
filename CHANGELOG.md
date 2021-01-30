@@ -13,6 +13,10 @@
 
 * I added a factory for creating data-context instances.
 
+* I modified the repository base to use the new data-context factory.
+
+* I removed the CRUD repostitory base.
+
 ## 2020.5
 
 * I copied the code from the old CG.Linq.EntityFramework.
