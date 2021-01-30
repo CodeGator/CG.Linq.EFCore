@@ -11,6 +11,8 @@
 
 * I added extensions to deal with efcore related startup tasks, such as migrations and seeding.
 
+* I added a factory for creating data-context instances.
+
 ## 2020.5
 
 * I copied the code from the old CG.Linq.EntityFramework.
