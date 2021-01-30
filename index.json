@@ -1,4 +1,14 @@
 {
+  "api/CG.Linq.EFCore.DbContextFactory-1.html": {
+    "href": "api/CG.Linq.EFCore.DbContextFactory-1.html",
+    "title": "Class DbContextFactory<TContext>",
+    "keywords": "Class DbContextFactory<TContext> This class represents a factory for creating EFCore data-context instances. Inheritance System.Object DbContextFactory<TContext> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Linq.EFCore Assembly : CG.Linq.EFCore.dll Syntax public class DbContextFactory<TContext> where TContext : DbContext Type Parameters Name Description TContext The type of associated data-context Remarks The idea, with this class, is to create a factory for making transitory data-context instances, at runtime. The class is a better alternative to passing a raw System.IServiceProvider instance around, or using a service locator pattern. Constructors DbContextFactory(IServiceProvider) This constructor creates a new instance of the DbContextFactory<TContext> type. Declaration public DbContextFactory(IServiceProvider serviceProvider) Parameters Type Name Description System.IServiceProvider serviceProvider The service provider to use with the factory. Properties ServiceProvider This property contains a reference to a service provider. Declaration protected IServiceProvider ServiceProvider { get; } Property Value Type Description System.IServiceProvider Methods Create() This method creates a new TContext instance and returns it. Declaration public virtual TContext Create() Returns Type Description TContext A new TContext instance."
+  },
+  "api/CG.Linq.EFCore.html": {
+    "href": "api/CG.Linq.EFCore.html",
+    "title": "Namespace CG.Linq.EFCore",
+    "keywords": "Namespace CG.Linq.EFCore Classes DbContextFactory<TContext> This class represents a factory for creating EFCore data-context instances."
+  },
   "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html": {
     "href": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html",
     "title": "Class EFCoreCrudRepositoryBase<TContext, TOptions, TModel, TKey>",

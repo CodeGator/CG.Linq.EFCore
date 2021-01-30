@@ -14,6 +14,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.DbContextFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.DbContextFactory-1.html",
+          "hash": "IIQbpetX+LC8f5sd/dMfmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.yml",
       "output": {
         ".html": {
@@ -110,6 +122,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.html",
+          "hash": "8rP7MpoR59XHkDdXHWQ51A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
@@ -174,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/zSKFL/Jq5wpchREzeMr0A=="
+          "hash": "TZ5xC3PTa04XwIMbmU61mw=="
         }
       },
       "is_incremental": false,
@@ -266,7 +290,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "kXJN/6WtzLWS6T6hryjomQ=="
+          "hash": "5wenRLxLCsSqVgjPEEmIcg=="
         }
       },
       "is_incremental": false,
@@ -293,7 +317,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 13,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

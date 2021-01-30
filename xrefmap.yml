@@ -1,6 +1,72 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: CG.Linq.EFCore
+  name: CG.Linq.EFCore
+  href: api/CG.Linq.EFCore.html
+  commentId: N:CG.Linq.EFCore
+  fullName: CG.Linq.EFCore
+  nameWithType: CG.Linq.EFCore
+- uid: CG.Linq.EFCore.DbContextFactory`1
+  name: DbContextFactory<TContext>
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html
+  commentId: T:CG.Linq.EFCore.DbContextFactory`1
+  name.vb: DbContextFactory(Of TContext)
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext)
+  nameWithType: DbContextFactory<TContext>
+  nameWithType.vb: DbContextFactory(Of TContext)
+- uid: CG.Linq.EFCore.DbContextFactory`1.#ctor(System.IServiceProvider)
+  name: DbContextFactory(IServiceProvider)
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1__ctor_System_IServiceProvider_
+  commentId: M:CG.Linq.EFCore.DbContextFactory`1.#ctor(System.IServiceProvider)
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.DbContextFactory(System.IServiceProvider)
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).DbContextFactory(System.IServiceProvider)
+  nameWithType: DbContextFactory<TContext>.DbContextFactory(IServiceProvider)
+  nameWithType.vb: DbContextFactory(Of TContext).DbContextFactory(IServiceProvider)
+- uid: CG.Linq.EFCore.DbContextFactory`1.#ctor*
+  name: DbContextFactory
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1__ctor_
+  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.#ctor
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.DbContextFactory
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).DbContextFactory
+  nameWithType: DbContextFactory<TContext>.DbContextFactory
+  nameWithType.vb: DbContextFactory(Of TContext).DbContextFactory
+- uid: CG.Linq.EFCore.DbContextFactory`1.Create
+  name: Create()
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_Create
+  commentId: M:CG.Linq.EFCore.DbContextFactory`1.Create
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.Create()
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).Create()
+  nameWithType: DbContextFactory<TContext>.Create()
+  nameWithType.vb: DbContextFactory(Of TContext).Create()
+- uid: CG.Linq.EFCore.DbContextFactory`1.Create*
+  name: Create
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_Create_
+  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.Create
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.Create
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).Create
+  nameWithType: DbContextFactory<TContext>.Create
+  nameWithType.vb: DbContextFactory(Of TContext).Create
+- uid: CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
+  name: ServiceProvider
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_ServiceProvider
+  commentId: P:CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.ServiceProvider
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).ServiceProvider
+  nameWithType: DbContextFactory<TContext>.ServiceProvider
+  nameWithType.vb: DbContextFactory(Of TContext).ServiceProvider
+- uid: CG.Linq.EFCore.DbContextFactory`1.ServiceProvider*
+  name: ServiceProvider
+  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_ServiceProvider_
+  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.ServiceProvider
+  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).ServiceProvider
+  nameWithType: DbContextFactory<TContext>.ServiceProvider
+  nameWithType.vb: DbContextFactory(Of TContext).ServiceProvider
 - uid: CG.Linq.EFCore.Repositories
   name: CG.Linq.EFCore.Repositories
   href: api/CG.Linq.EFCore.Repositories.html
