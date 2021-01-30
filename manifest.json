@@ -26,59 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-4.html",
-          "hash": "TETq6pWIh9hbfU7Uf8kRrw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-5.html",
-          "hash": "HwO+548ZmRPVK/C9NcM8fg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreCrudRepositoryBase-6.html",
-          "hash": "uUrl7g6WvRS8XLJihp14Ww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html",
-          "hash": "aQvryn0oenqNyLj8C1z7Sw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html",
-          "hash": "4pVs7arer9b2NK62GuwIrQ=="
+          "hash": "yV3U8xbmMG+S8ixRMIOZBQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.EFCore.Repositories.html",
-          "hash": "oPTZ15JoDeaSzeIVT01sBA=="
+          "hash": "xdS7xInrtT0b8ZcDMreAfg=="
         }
       },
       "is_incremental": false,
@@ -198,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "TZ5xC3PTa04XwIMbmU61mw=="
+          "hash": "/vFO0E5RbhxvTYn7zuo6/w=="
         }
       },
       "is_incremental": false,
@@ -317,7 +269,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

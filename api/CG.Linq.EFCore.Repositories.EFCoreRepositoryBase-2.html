@@ -93,7 +93,6 @@ interface.</p>
     <div class="level1"><span class="xref">CG.DisposableBase</span></div>
     <div class="level2"><span class="xref">CG.Business.Repositories.RepositoryBase</span></div>
     <div class="level3"><span class="xref">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</span></div>
-      <div class="level4"><a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-3.html">EFCoreRepositoryBase&lt;TContext, TOptions, TModel&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -104,6 +103,9 @@ interface.</p>
     <h5>Inherited Members</h5>
     <div>
       <span class="xref">CG.DisposableBase.System.IDisposable.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span>
     </div>
     <div>
       <span class="xref">CG.DisposableBase.IsDisposed</span>
@@ -160,14 +162,14 @@ interface.</p>
   <h3 id="constructors">Constructors
   </h3>
   <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,`0)">EFCoreRepositoryBase(TOptions, TContext)</h4>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0__" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})">EFCoreRepositoryBase(TOptions, DbContextFactory&lt;TContext&gt;)</h4>
   <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</a>
 class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, TContext dataContext)</code></pre>
+    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, DbContextFactory&lt;TContext&gt; dbContextFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,23 +188,25 @@ class.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TContext</span></td>
-        <td><span class="parametername">dataContext</span></td>
-        <td><p>The data-context to use with the repository.</p>
+        <td><a class="xref" href="CG.Linq.EFCore.DbContextFactory-1.html">DbContextFactory</a>&lt;TContext&gt;</td>
+        <td><span class="parametername">dbContextFactory</span></td>
+        <td><p>The data-context factory to use with
+the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_DataContext_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.DataContext*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_DataContext" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.DataContext">DataContext</h4>
-  <div class="markdown level1 summary"><p>This property contains the data-context associated with the repository.</p>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Factory_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Factory*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Factory" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Factory">Factory</h4>
+  <div class="markdown level1 summary"><p>This property contains a factory for creating <code data-dev-comment-type="typeparamref" class="typeparamref">TContext</code>
+instances.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TContext DataContext { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected DbContextFactory&lt;TContext&gt; Factory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,42 +218,11 @@ class.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TContext</span></td>
+        <td><a class="xref" href="CG.Linq.EFCore.DbContextFactory-1.html">DbContextFactory</a>&lt;TContext&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Dispose_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Dispose*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Dispose_System_Boolean_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>This method is called to clean up managed resources.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td><p>True to cleanup managed resources.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">CG.Business.Repositories.IRepository</span>
