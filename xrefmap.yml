@@ -82,6 +82,14 @@ references:
   fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions)
   nameWithType: EFCoreRepositoryBase<TContext, TOptions>
   nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions)
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,`0)
+  name: EFCoreRepositoryBase(TOptions, TContext)
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1__0_
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,`0)
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, TContext)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, TContext)
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, TContext)
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, TContext)
 - uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})
   name: EFCoreRepositoryBase(TOptions, DbContextFactory<TContext>)
   href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0__
@@ -100,6 +108,23 @@ references:
   fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase
   nameWithType: EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase
   nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context
+  name: Context
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Context
+  commentId: P:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions>.Context
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).Context
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions>.Context
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).Context
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context*
+  name: Context
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Context_
+  commentId: Overload:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context
+  isSpec: "True"
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions>.Context
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).Context
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions>.Context
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).Context
 - uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Factory
   name: Factory
   href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Factory

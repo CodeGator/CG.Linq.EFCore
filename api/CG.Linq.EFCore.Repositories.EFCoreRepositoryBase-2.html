@@ -162,6 +162,45 @@ interface.</p>
   <h3 id="constructors">Constructors
   </h3>
   <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1__0_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,`0)">EFCoreRepositoryBase(TOptions, TContext)</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</a>
+class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, TContext dbContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The options to use with the repository.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TContext</span></td>
+        <td><span class="parametername">dbContext</span></td>
+        <td><p>The data-context instance to use with the
+repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1__0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use this constructor when the repostitory requires a single data-context
+instance that should be used throughout the lifetime of the repository.</p>
+</div>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*"></a>
   <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0__" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})">EFCoreRepositoryBase(TOptions, DbContextFactory&lt;TContext&gt;)</h4>
   <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</a>
 class.</p>
@@ -196,8 +235,37 @@ the repository.</p>
       </tr>
     </tbody>
   </table>
+  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Use this constructor when the repostitory requires a transient
+data-context instance that should be created, used, and disposed
+of, for each operation.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
+  <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Context_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context*"></a>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Context" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Context">Context</h4>
+  <div class="markdown level1 summary"><p>This property contains a <code data-dev-comment-type="typeparamref" class="typeparamref">TContext</code> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TContext Context { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Factory_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Factory*"></a>
   <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2_Factory" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.Factory">Factory</h4>
   <div class="markdown level1 summary"><p>This property contains a factory for creating <code data-dev-comment-type="typeparamref" class="typeparamref">TContext</code>
