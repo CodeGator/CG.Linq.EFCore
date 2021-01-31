@@ -32,6 +32,11 @@ namespace CG.Linq.EFCore.Repositories
         /// </summary>
         protected DbContextFactory<TContext> Factory { get; }
 
+        /// <summary>
+        /// This property contains a <typeparamref name="TContext"/> instance.
+        /// </summary>
+        protected TContext Context { get; }
+
         #endregion
 
         // *******************************************************************
@@ -42,11 +47,16 @@ namespace CG.Linq.EFCore.Repositories
 
         /// <summary>
         /// This constructor creates a new instance of the <see cref="EFCoreRepositoryBase{TContext, TOptions}"/>
-        /// class.
+        /// class. 
         /// </summary>
         /// <param name="options">The options to use with the repository.</param>
         /// <param name="dbContextFactory">The data-context factory to use with 
         /// the repository.</param>
+        /// <remarks>
+        /// Use this constructor when the repostitory requires a transient 
+        /// data-context instance that should be created, used, and disposed
+        /// of, for each operation.
+        /// </remarks>
         protected EFCoreRepositoryBase(
             TOptions options,
             DbContextFactory<TContext> dbContextFactory
@@ -58,6 +68,32 @@ namespace CG.Linq.EFCore.Repositories
 
             // Save the references.
             Factory = dbContextFactory;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This constructor creates a new instance of the <see cref="EFCoreRepositoryBase{TContext, TOptions}"/>
+        /// class.
+        /// </summary>
+        /// <param name="options">The options to use with the repository.</param>
+        /// <param name="dbContext">The data-context instance to use with the 
+        /// repository.</param>
+        /// <remarks>
+        /// Use this constructor when the repostitory requires a single data-context 
+        /// instance that should be used throughout the lifetime of the repository.
+        /// </remarks>
+        protected EFCoreRepositoryBase(
+            TOptions options,
+            TContext dbContext
+            )
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(options, nameof(options))
+                .ThrowIfNull(dbContext, nameof(dbContext));
+
+            // Save the references.
+            Context = dbContext;
         }
 
         #endregion
