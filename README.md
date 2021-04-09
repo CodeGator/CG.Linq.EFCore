@@ -15,7 +15,7 @@ Commonly used types:
 * CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions
 
 #### What platform(s) does it support?
-* .NET Core 3.1 or higher.
+* .NET 5.x or higher.
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Linq.EFCore/issues)

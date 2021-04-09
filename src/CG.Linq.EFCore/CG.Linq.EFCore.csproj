@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright>Copyright © 2010 - 2021 by CodeGator. All rights reserved.</Copyright>
     <Description>This package contains Entity Framework Core extensions used by other CodeGator packages. 
 
 Platforms supported:
-    .NET Core 3.1 or above</Description>
+    .NET 5.x or above</Description>
     <Company>CodeGator</Company>
     <Authors>Martin Cook</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -20,14 +20,14 @@ Platforms supported:
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp3.1\CG.Linq.EFCore.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net5.0\CG.Linq.EFCore.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Linq" Version="2021.1.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.11" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
+    <PackageReference Include="CG.Linq" Version="2021.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.5" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.194">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

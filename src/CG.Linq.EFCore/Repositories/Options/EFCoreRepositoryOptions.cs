@@ -21,14 +21,6 @@ namespace CG.Linq.EFCore.Repositories.Options
         public bool ApplyMigrations { get; set; }
 
         /// <summary>
-        /// This property indicates whether the database should be created, if
-        /// needed, at startup (or not). Note, this step is only ever performed
-        /// when running in the <c>Development</c> environment, in order to 
-        /// prevent horrible accidents in production.
-        /// </summary>
-        public bool EnsureCreated { get; set; }
-
-        /// <summary>
         /// This property indicates whether the database should be dropped, if 
         /// it already exists (or not). Note, this step is only ever performed
         /// when running in the <c>Development</c> environment, in order to 
