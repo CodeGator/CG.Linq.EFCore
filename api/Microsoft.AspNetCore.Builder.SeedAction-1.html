@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate SeedAction&lt;TContext&gt;
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,7 +90,7 @@
   <h6><strong>Assembly</strong>: CG.Linq.EFCore.dll</h6>
   <h5 id="Microsoft_AspNetCore_Builder_SeedAction_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void SeedAction&lt;in TContext&gt;(TContext dataContext, bool wasDropped, bool wasCreated, bool wasMigrated)
+    <pre><code class="lang-csharp hljs">public delegate void SeedAction&lt;in TContext&gt;(TContext dataContext, bool wasDropped, bool wasMigrated)
     where TContext : DbContext;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -113,12 +113,6 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">wasDropped</span></td>
         <td><p>Indicates whether the data-context was recently dropped.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">wasCreated</span></td>
-        <td><p>Indicates whether the data-context was recently created.</p>
 </td>
       </tr>
       <tr>
