@@ -1,6 +1,10 @@
 # CG.Linq.EFCore
 ---
 
+## 2021.2
+
+* I switched to the .NET 5.0 framework
+
 ## 2021.1
 
 * I created a base class repository with no model refs
