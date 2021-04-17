@@ -174,28 +174,28 @@ references:
   commentId: N:Microsoft.AspNetCore.Builder
   fullName: Microsoft.AspNetCore.Builder
   nameWithType: Microsoft.AspNetCore.Builder
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  name: ApplicationBuilderExtensions
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  nameWithType: ApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore*
+- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
+  name: EfCoreApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
+  nameWithType: EfCoreApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore*
   name: UseEFCore
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore_
-  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
+  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_EfCoreApplicationBuilderExtensions_UseEFCore_
+  commentId: Overload:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
-  nameWithType: ApplicationBuilderExtensions.UseEFCore
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore
+  nameWithType: EfCoreApplicationBuilderExtensions.UseEFCore
+- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name: UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_EfCoreApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name.vb: UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
-  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
-  nameWithType: ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
+  fullName.vb: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
+  nameWithType: EfCoreApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
+  nameWithType.vb: EfCoreApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
 - uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TContext>
   href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html

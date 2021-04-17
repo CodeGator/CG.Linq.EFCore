@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html",
-          "hash": "mfHMlL1tQSzCvtmfB4ixPe/IyKOMNKnLhJLWkFdjXIc="
+          "relative_path": "api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html",
+          "hash": "w871E2xGC5KMHcIkGZPvW0I4mfcsQ8e5Gz2N6IRoz7Q="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.AspNetCore.Builder.html",
-          "hash": "H7w+5FWBaGIxv+kiUHSRw/vaoWkmPM9SKWMKtqKbWP4="
+          "hash": "oOqYR95c4/rhNHEtUJ+cCkZq+gEOaNMQxKN7n4FZ7xo="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "n28zuBj8AbTmbH6xtp9FSTZh+MYr76OIGt7JUR2PWv4="
+          "hash": "gz/JG2J581zGQtfmaaBMDjuJzBouymgWQ5tG96rdSHs="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "IgaXKEF9ASkCD8+TNpTqvf6qEszdalOBZkq9JnhQaLA="
+          "hash": "R0Q70KHRU9z8+AM4wZK8R24gKvaFwQC8b+jkYRBUEog="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "6++87+61EY4QBy3v9VpBx/Yaj+Ir0vNioqOzd15dKr8="
+          "hash": "+0JfvMXs8hKeQmRYU+P9mxRqTxjLPvnArbddwDzGmks="
         }
       },
       "is_incremental": false,
