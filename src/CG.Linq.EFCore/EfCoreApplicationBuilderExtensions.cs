@@ -23,9 +23,9 @@ namespace Microsoft.AspNetCore.Builder
 
     /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
-    /// type.
+    /// type, for registering types related to the EFCore library.
     /// </summary>
-    public static partial class ApplicationBuilderExtensions
+    public static partial class EfCoreApplicationBuilderExtensions
     {
         // *******************************************************************
         // Public methods.

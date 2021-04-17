@@ -8,7 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>
-    /// type.
+    /// type, for registering types related to the EFCore library.
     /// </summary>
     public static partial class ServiceCollectionExtensions
     {
