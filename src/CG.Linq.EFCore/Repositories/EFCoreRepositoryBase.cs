@@ -30,7 +30,7 @@ namespace CG.Linq.EFCore.Repositories
         /// This property contains a factory for creating <typeparamref name="TContext"/>
         /// instances.
         /// </summary>
-        protected DbContextFactory<TContext> Factory { get; }
+        protected IDbContextFactory<TContext> Factory { get; }
 
         #endregion
 
@@ -54,7 +54,7 @@ namespace CG.Linq.EFCore.Repositories
         /// </remarks>
         protected EFCoreRepositoryBase(
             TOptions options,
-            DbContextFactory<TContext> dbContextFactory
+            IDbContextFactory<TContext> dbContextFactory
             )
         {
             // Validate the parameters before attempting to use them.

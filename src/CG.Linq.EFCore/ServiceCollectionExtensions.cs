@@ -1,6 +1,5 @@
 ﻿using CG.Linq.EFCore.Repositories.Options;
 using CG.Validations;
-using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Configuration;
 using System;
 
