@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DbContextFactory&lt;TContext&gt;
+    <title>Class ApplicationBuilderExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DbContextFactory&lt;TContext&gt;
+    <meta name="title" content="Class ApplicationBuilderExtensions
    ">
-    <meta name="generator" content="docfx 2.57.1.0">
+    <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,18 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Linq.EFCore.DbContextFactory`1">
+            <article class="content wrap" id="_content" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions">
   
   
-  <h1 id="CG_Linq_EFCore_DbContextFactory_1" data-uid="CG.Linq.EFCore.DbContextFactory`1" class="text-break">Class DbContextFactory&lt;TContext&gt;
+  <h1 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions" class="text-break">Class ApplicationBuilderExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class represents a factory for creating EFCore data-context instances.</p>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span>
+type, for registering types related to the EFCore library.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DbContextFactory&lt;TContext&gt;</span></div>
+    <div class="level1"><span class="xref">ApplicationBuilderExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,46 +116,26 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Linq.EFCore.html">CG.Linq.EFCore</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.AspNetCore.Builder.html">Microsoft.AspNetCore.Builder</a></h6>
   <h6><strong>Assembly</strong>: CG.Linq.EFCore.dll</h6>
-  <h5 id="CG_Linq_EFCore_DbContextFactory_1_syntax">Syntax</h5>
+  <h5 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DbContextFactory&lt;TContext&gt;
-    where TContext : DbContext</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ApplicationBuilderExtensions</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TContext</span></td>
-        <td><p>The type of associated data-context</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="CG_Linq_EFCore_DbContextFactory_1_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>The idea, with this class, is to create a factory for making transitory
-data-context instances, at runtime. The class is a better alternative to
-passing a raw <span class="xref">System.IServiceProvider</span> instance around, or using a
-service locator pattern.</p>
-</div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
-  <a id="CG_Linq_EFCore_DbContextFactory_1__ctor_" data-uid="CG.Linq.EFCore.DbContextFactory`1.#ctor*"></a>
-  <h4 id="CG_Linq_EFCore_DbContextFactory_1__ctor_System_IServiceProvider_" data-uid="CG.Linq.EFCore.DbContextFactory`1.#ctor(System.IServiceProvider)">DbContextFactory(IServiceProvider)</h4>
-  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.DbContextFactory-1.html">DbContextFactory&lt;TContext&gt;</a>
-type.</p>
+  <a id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore_" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore*"></a>
+  <h4 id="Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__" data-uid="Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})">UseEFCore&lt;TContext, TOptions&gt;(IApplicationBuilder, SeedAction&lt;TContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>This method performs any startup logic required by EFCore, such as
+dropping the underlying database (if needed), or creating the underlying
+database (if needed), applying any pending migrations, or adding seed
+data to an otherwise blank database.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DbContextFactory(IServiceProvider serviceProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseEFCore&lt;TContext, TOptions&gt;(this IApplicationBuilder applicationBuilder, SeedAction&lt;TContext&gt; seedDelegate)
+    where TContext : DbContext where TOptions : EFCoreRepositoryOptions</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,51 +148,21 @@ type.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IServiceProvider</span></td>
-        <td><span class="parametername">serviceProvider</span></td>
-        <td><p>The service provider to use with the factory.</p>
+        <td><span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span></td>
+        <td><span class="parametername">applicationBuilder</span></td>
+        <td><p>The application builder to use for
+the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.AspNetCore.Builder.SeedAction-1.html">SeedAction</a>&lt;TContext&gt;</td>
+        <td><span class="parametername">seedDelegate</span></td>
+        <td><p>A delegate for seeding the database with
+startup data.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <a id="CG_Linq_EFCore_DbContextFactory_1_ServiceProvider_" data-uid="CG.Linq.EFCore.DbContextFactory`1.ServiceProvider*"></a>
-  <h4 id="CG_Linq_EFCore_DbContextFactory_1_ServiceProvider" data-uid="CG.Linq.EFCore.DbContextFactory`1.ServiceProvider">ServiceProvider</h4>
-  <div class="markdown level1 summary"><p>This property contains a reference to a service provider.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IServiceProvider ServiceProvider { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IServiceProvider</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="CG_Linq_EFCore_DbContextFactory_1_Create_" data-uid="CG.Linq.EFCore.DbContextFactory`1.Create*"></a>
-  <h4 id="CG_Linq_EFCore_DbContextFactory_1_Create" data-uid="CG.Linq.EFCore.DbContextFactory`1.Create">Create()</h4>
-  <div class="markdown level1 summary"><p>This method creates a new <code data-dev-comment-type="typeparamref" class="typeparamref">TContext</code> instance
-and returns it.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual TContext Create()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -222,8 +173,47 @@ and returns it.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TContext</span></td>
-        <td><p>A new <code data-dev-comment-type="typeparamref" class="typeparamref">TContext</code> instance.</p>
+        <td><span class="xref">Microsoft.AspNetCore.Builder.IApplicationBuilder</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">applicationBuilder</code>
+parameter, for chaining calls together.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TContext</span></td>
+        <td><p>The type of assciated data-context</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>The type of associated options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This exception is thrown whenever one
+or more arguments are invalid, or missing.</p>
 </td>
       </tr>
     </tbody>

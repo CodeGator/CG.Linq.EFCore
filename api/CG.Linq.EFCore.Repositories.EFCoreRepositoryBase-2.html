@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EFCoreRepositoryBase&lt;TContext, TOptions&gt;
    ">
-    <meta name="generator" content="docfx 2.57.1.0">
+    <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -162,14 +162,14 @@ interface.</p>
   <h3 id="constructors">Constructors
   </h3>
   <a id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*"></a>
-  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0__" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})">EFCoreRepositoryBase(TOptions, DbContextFactory&lt;TContext&gt;)</h4>
+  <h4 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_Microsoft_EntityFrameworkCore_IDbContextFactory__0__" data-uid="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,Microsoft.EntityFrameworkCore.IDbContextFactory{`0})">EFCoreRepositoryBase(TOptions, IDbContextFactory&lt;TContext&gt;)</h4>
   <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html">EFCoreRepositoryBase&lt;TContext, TOptions&gt;</a>
 class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, DbContextFactory&lt;TContext&gt; dbContextFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">protected EFCoreRepositoryBase(TOptions options, IDbContextFactory&lt;TContext&gt; dbContextFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,7 +188,7 @@ class.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="CG.Linq.EFCore.DbContextFactory-1.html">DbContextFactory</a>&lt;TContext&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.IDbContextFactory</span>&lt;TContext&gt;</td>
         <td><span class="parametername">dbContextFactory</span></td>
         <td><p>The data-context factory to use with
 the repository.</p>
@@ -196,7 +196,7 @@ the repository.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0___remarks">Remarks</h5>
+  <h5 id="CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_Microsoft_EntityFrameworkCore_IDbContextFactory__0___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Use this constructor when the repostitory requires a transient
 data-context instance that should be created, used, and disposed
 of, for each operation.</p>
@@ -211,7 +211,7 @@ instances.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DbContextFactory&lt;TContext&gt; Factory { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected IDbContextFactory&lt;TContext&gt; Factory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,7 +223,7 @@ instances.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Linq.EFCore.DbContextFactory-1.html">DbContextFactory</a>&lt;TContext&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.IDbContextFactory</span>&lt;TContext&gt;</td>
         <td></td>
       </tr>
     </tbody>

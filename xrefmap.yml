@@ -1,72 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Linq.EFCore
-  name: CG.Linq.EFCore
-  href: api/CG.Linq.EFCore.html
-  commentId: N:CG.Linq.EFCore
-  fullName: CG.Linq.EFCore
-  nameWithType: CG.Linq.EFCore
-- uid: CG.Linq.EFCore.DbContextFactory`1
-  name: DbContextFactory<TContext>
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html
-  commentId: T:CG.Linq.EFCore.DbContextFactory`1
-  name.vb: DbContextFactory(Of TContext)
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext)
-  nameWithType: DbContextFactory<TContext>
-  nameWithType.vb: DbContextFactory(Of TContext)
-- uid: CG.Linq.EFCore.DbContextFactory`1.#ctor(System.IServiceProvider)
-  name: DbContextFactory(IServiceProvider)
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1__ctor_System_IServiceProvider_
-  commentId: M:CG.Linq.EFCore.DbContextFactory`1.#ctor(System.IServiceProvider)
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.DbContextFactory(System.IServiceProvider)
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).DbContextFactory(System.IServiceProvider)
-  nameWithType: DbContextFactory<TContext>.DbContextFactory(IServiceProvider)
-  nameWithType.vb: DbContextFactory(Of TContext).DbContextFactory(IServiceProvider)
-- uid: CG.Linq.EFCore.DbContextFactory`1.#ctor*
-  name: DbContextFactory
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1__ctor_
-  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.#ctor
-  isSpec: "True"
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.DbContextFactory
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).DbContextFactory
-  nameWithType: DbContextFactory<TContext>.DbContextFactory
-  nameWithType.vb: DbContextFactory(Of TContext).DbContextFactory
-- uid: CG.Linq.EFCore.DbContextFactory`1.Create
-  name: Create()
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_Create
-  commentId: M:CG.Linq.EFCore.DbContextFactory`1.Create
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.Create()
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).Create()
-  nameWithType: DbContextFactory<TContext>.Create()
-  nameWithType.vb: DbContextFactory(Of TContext).Create()
-- uid: CG.Linq.EFCore.DbContextFactory`1.Create*
-  name: Create
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_Create_
-  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.Create
-  isSpec: "True"
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.Create
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).Create
-  nameWithType: DbContextFactory<TContext>.Create
-  nameWithType.vb: DbContextFactory(Of TContext).Create
-- uid: CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
-  name: ServiceProvider
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_ServiceProvider
-  commentId: P:CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.ServiceProvider
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).ServiceProvider
-  nameWithType: DbContextFactory<TContext>.ServiceProvider
-  nameWithType.vb: DbContextFactory(Of TContext).ServiceProvider
-- uid: CG.Linq.EFCore.DbContextFactory`1.ServiceProvider*
-  name: ServiceProvider
-  href: api/CG.Linq.EFCore.DbContextFactory-1.html#CG_Linq_EFCore_DbContextFactory_1_ServiceProvider_
-  commentId: Overload:CG.Linq.EFCore.DbContextFactory`1.ServiceProvider
-  isSpec: "True"
-  fullName: CG.Linq.EFCore.DbContextFactory<TContext>.ServiceProvider
-  fullName.vb: CG.Linq.EFCore.DbContextFactory(Of TContext).ServiceProvider
-  nameWithType: DbContextFactory<TContext>.ServiceProvider
-  nameWithType.vb: DbContextFactory(Of TContext).ServiceProvider
 - uid: CG.Linq.EFCore.Repositories
   name: CG.Linq.EFCore.Repositories
   href: api/CG.Linq.EFCore.Repositories.html
@@ -82,15 +16,15 @@ references:
   fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions)
   nameWithType: EFCoreRepositoryBase<TContext, TOptions>
   nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions)
-- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})
-  name: EFCoreRepositoryBase(TOptions, DbContextFactory<TContext>)
-  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_CG_Linq_EFCore_DbContextFactory__0__
-  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,CG.Linq.EFCore.DbContextFactory{`0})
-  name.vb: EFCoreRepositoryBase(TOptions, DbContextFactory(Of TContext))
-  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, CG.Linq.EFCore.DbContextFactory<TContext>)
-  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, CG.Linq.EFCore.DbContextFactory(Of TContext))
-  nameWithType: EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, DbContextFactory<TContext>)
-  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, DbContextFactory(Of TContext))
+- uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,Microsoft.EntityFrameworkCore.IDbContextFactory{`0})
+  name: EFCoreRepositoryBase(TOptions, IDbContextFactory<TContext>)
+  href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor__1_Microsoft_EntityFrameworkCore_IDbContextFactory__0__
+  commentId: M:CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor(`1,Microsoft.EntityFrameworkCore.IDbContextFactory{`0})
+  name.vb: EFCoreRepositoryBase(TOptions, IDbContextFactory(Of TContext))
+  fullName: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, Microsoft.EntityFrameworkCore.IDbContextFactory<TContext>)
+  fullName.vb: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, Microsoft.EntityFrameworkCore.IDbContextFactory(Of TContext))
+  nameWithType: EFCoreRepositoryBase<TContext, TOptions>.EFCoreRepositoryBase(TOptions, IDbContextFactory<TContext>)
+  nameWithType.vb: EFCoreRepositoryBase(Of TContext, TOptions).EFCoreRepositoryBase(TOptions, IDbContextFactory(Of TContext))
 - uid: CG.Linq.EFCore.Repositories.EFCoreRepositoryBase`2.#ctor*
   name: EFCoreRepositoryBase
   href: api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html#CG_Linq_EFCore_Repositories_EFCoreRepositoryBase_2__ctor_
@@ -174,28 +108,28 @@ references:
   commentId: N:Microsoft.AspNetCore.Builder
   fullName: Microsoft.AspNetCore.Builder
   nameWithType: Microsoft.AspNetCore.Builder
-- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
-  name: EfCoreApplicationBuilderExtensions
-  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions
-  nameWithType: EfCoreApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore*
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore*
   name: UseEFCore
-  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_EfCoreApplicationBuilderExtensions_UseEFCore_
-  commentId: Overload:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore_
+  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore
-  nameWithType: EfCoreApplicationBuilderExtensions.UseEFCore
-- uid: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore
+  nameWithType: ApplicationBuilderExtensions.UseEFCore
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name: UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
-  href: api/Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_EfCoreApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
-  commentId: M:Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseEFCore__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name.vb: UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
-  fullName: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
-  fullName.vb: Microsoft.AspNetCore.Builder.EfCoreApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
-  nameWithType: EfCoreApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
-  nameWithType.vb: EfCoreApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction<TContext>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.SeedAction(Of TContext))
+  nameWithType: ApplicationBuilderExtensions.UseEFCore<TContext, TOptions>(IApplicationBuilder, SeedAction<TContext>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseEFCore(Of TContext, TOptions)(IApplicationBuilder, SeedAction(Of TContext))
 - uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TContext>
   href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
