@@ -17,6 +17,7 @@ Platforms supported:
     <RepositoryType>git</RepositoryType>
     <PackageTags>Entity Framework Core, CG.Linq.EFCore, CodeGator</PackageTags>
     <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,9 +26,9 @@ Platforms supported:
 
   <ItemGroup>
     <PackageReference Include="CG.Linq" Version="2021.2.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.5" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.194">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.6" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.203">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
