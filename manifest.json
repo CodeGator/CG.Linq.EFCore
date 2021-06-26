@@ -13,12 +13,132 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.EFCoreRepositoryBase-2.html",
+          "hash": "nr/O/lmtlHOR3e2qbfqWEcfjTcjPdxj41sHmI7M7YFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.Options.EFCoreRepositoryOptions.html",
+          "hash": "02qizQhRz3WptHVH3Te7Zhn+BI3eizpPQYWnHkLmofA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.Options.html",
+          "hash": "1KBNUZybnHGwD7eWel82wMXAecH7W5Le/fJbK1fhlmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.EFCore.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.EFCore.Repositories.html",
+          "hash": "bNgr0x3T25HDk1D7URC2U4li5bRC4hQcKZH4AqrMHlM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html",
+          "hash": "8o1isPhhR4CvtUEarLTmf32J8B4f/Ey7slIKvg7djm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.html",
+          "hash": "uTuZ/TSi5cYh+P7spe9v7dmMDDsFK9sptFHTbiV/8sU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "9108asF+ON1Ifyt8mdX/29kl97x5v+its8KvgWQJZSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "hubVb8LX98qP+ZcFO7J1FN4bsr6Bg/Bqe+Jz3hCJlzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "dYayTAOaVA967Odc+vSEpM/SoztXrjIBSivLs28HQjg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "aqNrf4Qa75tMnO9R0SjUfJ5jM54aDcX5+LJ61cfDwqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -86,7 +206,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "vGyqu/Vj/0K9+Scs1Ax0DNqvyCmPajDGRaBQlYtjn/Y="
+          "hash": "hY8khes97CPVSnlDAZXn6XV5TYONrUyYO6raNnz26mU="
         }
       },
       "is_incremental": false,
@@ -98,7 +218,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4Gu0RUy9YoSWVbgRj71Roipp9ZbKG/BHBf+7up65+cA="
+          "hash": "VKpU/frr2bchix43g09mbMF1QFZwEetx0fRUHAHcOi8="
         }
       },
       "is_incremental": false,
@@ -120,6 +240,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
